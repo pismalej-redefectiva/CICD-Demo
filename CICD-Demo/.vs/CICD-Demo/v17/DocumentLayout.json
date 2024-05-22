@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|c:\\red efectiva\\repositorios\\cicd-demo\\cicd-demo\\cicd-demo\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|solutionrelative:cicd-demo\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|c:\\red efectiva\\repositorios\\cicd-demo\\cicd-demo\\cicd-demo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|solutionrelative:cicd-demo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|c:\\red efectiva\\repositorios\\cicd-demo\\cicd-demo\\cicd-demo\\aws-lambda-tools-defaults.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5755446C-4E6B-477E-A12B-3F14F702AAA3}|CICD-Demo\\CICD-Demo.csproj|solutionrelative:cicd-demo\\aws-lambda-tools-defaults.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CICD-Demo\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CICD-Demo\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T00:20:52.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "aws-lambda-tools-defaults.json",
+              "DocumentMoniker": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\aws-lambda-tools-defaults.json",
+              "RelativeDocumentMoniker": "CICD-Demo\\aws-lambda-tools-defaults.json",
+              "ToolTip": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\aws-lambda-tools-defaults.json",
+              "RelativeToolTip": "CICD-Demo\\aws-lambda-tools-defaults.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T00:13:09.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Function.cs",
+              "DocumentMoniker": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\Function.cs",
+              "RelativeDocumentMoniker": "CICD-Demo\\Function.cs",
+              "ToolTip": "C:\\Red Efectiva\\Repositorios\\CICD-Demo\\CICD-Demo\\CICD-Demo\\Function.cs",
+              "RelativeToolTip": "CICD-Demo\\Function.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:12:58.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
