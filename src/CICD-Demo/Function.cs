@@ -14,13 +14,10 @@ public class Function
     /// <param name="input">The event for the Lambda function handler to process.</param>
     /// <param name="context">The ILambdaContext that provides methods for logging and describing the Lambda environment.</param>
     /// <returns></returns>
-    public string FunctionHandler(MyData data, ILambdaContext context)
+    public string FunctionHandler(string name, ILambdaContext context)
     {
-        return $"Hello {data.Name}".ToUpper();
+        return $"Hello {name}".ToUpper();
     }
 
-    public class MyData ()
-    {
-        public string Name  { get; set; }
-    }
+    
 }
