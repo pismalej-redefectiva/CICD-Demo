@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: "CI/CD Demo"
+Parameters: 
+  Environment:
+    Description: Environment Name
+    Type: String
+
+Resources: 
+  lambdaFunctioniamRole:
+    Type: AWS::IAM::Role
+    Properties:
+      Path:
+      AssumeRolePolicyDocument: 
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: "CICD-Demo-lambda-policy"
+          PolicyDocument: 
+            Version: "2012-10-17"
+            Statement:
+            - Effect: Allow
+              Action: 
+                - "Logs:CreateLogGroup"
+                - "Logs:CreateLogStream"
+                - "Logs:PutLogEvents"
+              Resource: "*"
+        
+
+  lambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: "CI/CD Demo with AWS Lambda"
+      FunctionName: !Sub CICD-Demo{Environment}
+      Handler: CICD-Demo::CICD_Demo.Function::FunctionHandler
+      MemorySize: 128
+      Role: !GetAtt lambdaFunctioniamRole.Arn
+      Runtime: dotnet8
+      Timeout: 30      
+      Environment:
+        Variables:
+          key1: value1 # A map of key-value pairs that the Lambda function can access
+      Code:
+        S3Bucket: CICD-Demo-cloudformation-packages
+        S3Key: lambda.zip                
+      Tags:
+        - Key: keyname
+          Value: value
