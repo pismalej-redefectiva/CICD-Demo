@@ -21,6 +21,6 @@ public class Function
 
     public class MyData ()
     {
-        public string {get; set; }	
+        public string Name  { get; set; }
     }
 }
