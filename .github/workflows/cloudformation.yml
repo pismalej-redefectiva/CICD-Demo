@@ -46,7 +46,7 @@ jobs:
         aws-region: us-east-2
 
     - name: Upload to S3
-      run: aws s3 cp ./artifact/lambda.zip s3://cicd-demo-cloudformation-packages-2
+      run: aws s3 cp ./artifact/lambda.zip s3://cicd-demo-cloudformation-packages
 
 
   test-deploy:
